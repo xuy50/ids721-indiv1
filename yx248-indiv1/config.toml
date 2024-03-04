@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://yx248-indiv1-dukeaiml-ids721.io"
+base_url = "https://yx248-indiv1-dukeaiml-ids721-0dbfac262998dd8f7067eb4b9326dbe700.gitlab.io/"
 
 # theme
 theme = "kita"

@@ -3,6 +3,10 @@ title = "Individual-projecct 1"
 description = "https://gitlab.com/dukeaiml/IDS721/yx248-indiv1"
 +++
 
+[My Zola Web](https://yx248-indiv1-dukeaiml-ids721-0dbfac262998dd8f7067eb4b9326dbe700.gitlab.io/)
+
+<br>
+
 # Continuous Delivery of Personal Website
 
 This project focuses on the creation and continuous delivery of a personal website. The website is built using Zola, a fast and efficient static site generator written in Rust. The goal is to automate the build and deployment process, allowing updates to be pushed live automatically with each commit to the main branch of the project's GitLab repository.

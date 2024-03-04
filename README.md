@@ -2,7 +2,7 @@
 
 ![pipeline status](https://gitlab.com/dukeaiml/IDS721/yx248-indiv1/badges/main/pipeline.svg)
 
-[My Zola Web]()
+[My Zola Web](https://yx248-indiv1-dukeaiml-ids721-0dbfac262998dd8f7067eb4b9326dbe700.gitlab.io/)
 
 ## Installation of Zola on Ubuntu
 
@@ -16,7 +16,7 @@
 
 ```sudo mv zola /usr/local/bin```
 
-For more information, refer to the [Zola Official Documentation]().
+For more information, refer to the [Zola Official Documentation](https://www.getzola.org/documentation/getting-started/installation/).
 
 
 ## Initial Setup and Running Zola Server
