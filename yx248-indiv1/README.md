@@ -1,28 +1,36 @@
-# ids721-mini1
+# ids721-indiv1
 
-[My Zola Web](https://yx248-mini1-dukeaiml-ids721-886f1fc470df5c71fb3c4a1700132e5a1ff.gitlab.io)
+![pipeline status](https://gitlab.com/dukeaiml/IDS721/yx248-indiv1/badges/main/pipeline.svg)
+
+[My Zola Web]()
 
 ## Installation of Zola on Ubuntu
 
 1. Download Zola from the [official releases page](https://github.com/getzola/zola/releases). For example, use `zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz`.
 
 2. Unzip the package:
+
 ```tar -xzf zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz```
 
 3. Move Zola to the bin directory:
+
 ```sudo mv zola /usr/local/bin```
-For more information, refer to the [Zola Official Documentation](https://www.getzola.org/documentation/getting-started/installation/).
+
+For more information, refer to the [Zola Official Documentation]().
 
 
 ## Initial Setup and Running Zola Server
 
-- Initialize the project: 
+- Initialize the project:
+
     ```zola init project_name```
 
 - Build the project:
+
     ```zola build```
 
 - - Run the server (default port is 1111):
+
    ```zola serve```
 
 
@@ -78,6 +86,7 @@ To deploy your Zola site on GitLab Pages, follow these steps:
 
 2. **Configure the CI/CD Pipeline:**
    Add the following script to your `.gitlab-ci.yml` file:
+
    ```yaml
    image: "registry.gitlab.com/pages/hugo:latest"
 
@@ -88,6 +97,7 @@ To deploy your Zola site on GitLab Pages, follow these steps:
        paths:
        - public
     ```
+
    This script tells GitLab to use a docker image with Zola installed, build your site with Zola, and then store the output in the `public` directory.
    Remember to chang the `value: ""` in `ZOLA_VERSION:` to `value: "0.18.0"`.
 
